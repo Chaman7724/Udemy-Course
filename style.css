@@ -108,3 +108,21 @@ a:active {
   background-color: black;
   color: white;
 }
+
+/* conflict in selectors */
+
+#copyright {
+  color: red;
+}
+
+.cc1 {
+  color: aqua;
+}
+
+.cc2 {
+  color: blue;
+}
+
+footer p {
+  color: aquamarine;
+}
